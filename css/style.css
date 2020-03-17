@@ -1,0 +1,876 @@
+body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    font-family:Arial;
+    font-size:20;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+input[type=text],input[type=date],input[type=tel],input[type=email],input[type=password]{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea[type=text]{
+    width: 100%;
+    height:150px;
+    margin:10px 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button{
+  background-color:white;
+  border: none;
+  color:gray;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.login-button{
+    border:none;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(150, 216, 194);
+    border-radius:6px;
+}
+.login-main{
+    height: 100vh;
+    width:100vw;
+}
+.login-button-align{
+    padding:20px 0 10px 0;
+
+}
+.login-form{
+    width: 300px;
+    height: 300px;
+    margin:auto;
+    padding:40px;
+    margin-top:80px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12) !important;
+}
+.login-padding{
+    padding:8px;
+}
+.login-main-heading{
+    font-size:19px;
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+.heaidng-icon{
+    width:60px;
+    height:30px
+}
+.login-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.main-heading-flex{
+
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    padding: 20px;
+}
+.main-caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-form{
+    width: 100vw;
+    height: 100vh;
+}
+.main-logout{
+    font-size: small;
+    color: gray;
+    padding: 10px;
+}
+.main-logout:hover{
+    color:black;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12) !important;
+    cursor: pointer;
+}
+.main-body{
+    padding: 60px 150px;
+}
+.text-decoration{
+    text-decoration: none;
+    color: gray;
+    
+}
+.list{
+    padding: 5px 0px;
+}
+.text-decoration:hover{
+    color:black;
+}
+.icon{
+
+    width: 100px;
+    height: 50px;
+}
+
+.home-button{
+width: 100%;
+text-align: right;
+}
+
+
+.page1-align-button{
+    display: grid;
+    align-items: center;
+    justify-content: right;
+    border-radius: 8px;
+}
+.login-forget-password{
+    padding:05px;
+    font-size:14px;
+    text-align: center;
+    cursor: not-allowed;
+    opacity:0.6;
+}
+.login-button-align{
+    display: flex;
+    justify-content: center;
+}
+.page1-button{
+    background-color:white;
+    border: none;
+    color:gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    color:black;
+}
+.button-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page1-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page1-form-holder{
+    width:100%;
+    height:100%;
+}
+.page1-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.page1-heading-icon {
+    padding:10px 10px;
+}
+.page1-main-heading {
+    width: 388px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 16px;
+}
+.page1-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page1-year{
+    font-size: 20px;
+    font-style: italic;
+}
+.page1-heading{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+.page1-input-flex,.page1-flex-sign{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page1-details{
+    overflow-wrap: break-word;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.page1-frame-footer{
+
+    width: 100%;
+    padding:20px 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.page1-flexWidth {
+    width: 25%;
+}
+.page1-date-form{
+    width: 25%;
+}
+.page1-flex-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1-flex-dob,.page1-flex-id,.page1-flex-grade,.page1-flex-date  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page2-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page2-main-heading{
+    font-size:48;
+    text-align: center;
+    text-decoration:underline;
+    font-weight:bold;
+}
+.page2-sub-heading{
+    text-align: center;
+    text-decoration:underline;
+}
+.paddingRight {
+  padding-right: 20px;
+}
+.paddingForDiv {
+    padding: 5px 0px;
+}
+.withoutJustifyflex {
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox" ] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.page2-form-heading{
+    text-align:center;
+    padding:20px;
+}
+td {
+  padding: 5px;
+}
+.page2-text-heading{
+    text-align:center;
+}
+.page2-address-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page2-address-data2{
+    border: 1px solid;
+    width: 65%;
+    padding: 20px;
+}
+.page2-address-data1{
+    border: 1px solid;
+    width: 35%;
+    padding: 42px;
+}
+.page2-flex-name{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.page2-frameflex{
+    display:flex;
+    justify-content:space-between;
+}
+.page2-flex-date,.page2-flex-telephone,.page2-flex-address,.page2-flex-grade,.page2-flex-dob {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2-input-flex{
+    padding:20px 20px;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.page2-table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+}
+.page2-table-data{
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.page3-sub-heading{
+    padding:20px;
+}
+.page3-main{
+    height:100%;
+}
+
+.page3-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page3-flex-name ,.page3-flex-dob,.page3-flex-sign{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.page3-flex-date{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.page3-input-flex{
+    padding:20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page3-label-padding{
+    padding-right: 20px;
+}
+.page3-table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: -webkit-fill-available;
+}
+.page3-table-data{
+    border: 1px solid black;
+}
+.page3-flex-data{
+    display:flex;
+}
+
+
+.page4-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page4-form-holder{
+    width:100%;
+    height:100%;
+}
+.page4-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.page4-heading-icon {
+    padding:10px 10px;
+}
+.page4-main-heading {
+    width: 388px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 16px;
+}
+.page4-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page4-year{
+    font-size: 20px;
+    font-style: italic;
+}
+.page4-heading{
+    width: 100%;
+    margin: 10px 0;
+    text-align:left;
+    background-color: black;
+    color:white;
+}
+.page4-input-flex{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.page4-flex-name,.page4-flex-insurance,.page4-flex-date,.page4-flex-live,.page4-flex-telephone,.page4-flex-relationship,.page4-flex-language,.page4-flex-gender,.page4-flex-grade,.page4-flex-dob,.page4-flex-id {
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.page4-details{
+text-align: justify;
+}
+.page4-sub-heading{
+    text-align: left;
+    font-weight:bold;
+}
+.page4-table1{
+    justify-content:center;
+}
+.page4-table-data{
+    padding:50px;
+}
+.page4-textarea-flex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.page4-table-allergie{
+    display:grid;
+}
+
+.page4-textarea-box{
+    width: 300px;
+    height: 100px;
+}
+.page4-textarea-text{
+padding: 30px;
+}
+.page4-textarea{
+    width:100%;
+    height:100%;
+}
+.page4-table2,.page4-table2-row,.page4-table2-data{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.page4-table2-row2,.page4-table2-row3{
+    height:30px;
+}
+.page4-medication{
+    display:flex;
+
+}
+.page4-padding{
+    padding-right:20px;
+}
+
+
+
+.page5-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page5-form-holder{
+    width:100%;
+    height:100%;
+}
+.page5-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page5-heading-icon {
+    padding:10px 10px;
+}
+
+.page5-main-heading {
+    width: 388px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 16px;
+}
+
+.page5-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page5-year{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.page5-flex-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-padding{
+    padding:10px;
+}
+.page5-flex-dob,.page5-flex-id,.page5-flex-checkbox,.page5-flex-grade,.page5-flex-date,.page5-flex-name,.page5-flex-live {
+    padding:05px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page5-frame{
+    display:flex;
+    justify-content: space-between;
+}
+.page5-flex-disaster{
+    padding:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page5-details{
+    overflow-wrap: break-word;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.page5-heading{
+    margin-top: 20px;
+    text-align: left;
+    background-color: black;
+    color:white;
+}
+
+.page5-input-flex{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page5-textarea-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page5-textarea-box{
+    width: 300px;
+    height: 100px;
+}
+
+
+.page6-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page6-padding{
+    padding:5px;
+}
+
+.page6-form-holder{
+    width:100%;
+    height:100%;
+}
+.page6-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.page6-heading-icon {
+    padding:10px 10px;
+}
+.page6-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page6-year{
+    font-size: 20px;
+    font-style: italic;
+    text-align:right;
+}
+.page6-heading{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+.pag6-main-heading{
+width: 388px;
+overflow: hidden;
+text-align: right;
+padding-right: 16px;
+}
+.page6-list-align{
+    display: -webkit-inline-box;
+}
+.page6-flex-dob,.page6-flex-id,.page6-flex-checkbox,.page6-flex-grade,.page6-flex-date,.page6-flex-name{
+   padding:5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page6-frame-footer{
+    padding:20px 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.page7-input-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page7-flexWidth {
+    width: 25%;
+}
+.page7-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding:60px;
+}
+.page7-form-holder{
+    width:100%;
+    height:100%;
+}
+.page7-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.page7-heading-icon {
+    padding:10px 10px;
+}
+.page7-main-heading {
+    width: 388px;
+    overflow: hidden;
+    text-align: right;
+    padding-right: 16px;
+}
+.page7-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page7-year{
+    font-size: 20px;
+    font-style: italic;
+}
+.page7-flex-id,.page7-flex-grade,.page7-flex-date {
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page7-padding{
+    padding:10px;
+}
+.page7-date-form{
+    width: 25%;
+}
+.page7-flex-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page8-logo-flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page8-logo-flex2{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.page8-logo-pfisd,.page8-logo-aramark{
+    width:100px;
+    height: 50px;
+}
+.page8-logo-landmark,.page8-logo-mobile,.page8-logo-globe{
+    width:20px;
+    height:20px;
+}
+.page8-logo-flex2-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page8-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page8-heading{
+    font-size: 36px;
+    text-align: center;
+}
+.page8-simple-heading{
+    font-weight:bold;
+    padding: 10px 20px;
+}
+.page8-right-form{
+    width:50%;
+}
+.page8-left-form{
+    width:50%;
+}
+.page8-docs{
+    width:100%;
+}
+.page8-docs-image{
+    width:100%;
+}
+.page8-form-flex{
+    display: flex;
+}
+
+
+
+.page9-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding:60px;
+}
+
+.page9-simple-heading{
+font-weight:bold;
+padding: 10px 20px;
+}
+.page9-form-holder{
+    width:100%;
+    height:100%;
+}
+
+.page9-heading-icon {
+    padding:10px 10px;
+}
+.page9-main-heading {
+
+    overflow: hidden;
+    text-align: right;
+    padding-right: 16px;
+   
+}
+.page9-caption{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.page9-year{
+    font-size: 20px;
+    font-style: italic;
+}
+.flexWrap {
+  flex-wrap: wrap;
+}
+.page9-heading-flex{
+
+    color: white;
+    display:flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.page10-flex-checkbox{
+    display: flex;
+}
+
+.page10-form{
+    width: 1100px;
+    height:100%;
+    background-color:rgb(190, 255, 225);
+    padding: 60px;
+}
+.page10-heading{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page10-flex-name,.page10-flex-grade,.page3-flex-checkbox,.page10-flex-sign,.page10-input-flex,.page10-flex-date,.page10-flex-address,.page10-name-form{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page10-flex-data{
+    display:flex;
+    align-items: center;
+}
+.page10-form-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page10-text-flex{
+    display: inline-flex;
+}
+.page10-heading-right{
+    border:1px solid;
+    padding:20px;
+}
+.page10-heading-icon{
+    width:200px;
+    height:100px;
+}
+.page10-heading-center{
+    text-align: center;
+}
+.page10-heading-main{
+    font-size:22px;
+    font-weight: bold;
+}
+.page10-sub-heading{
+    font-weight: bold;
+}
+.page10-name-form-guardian{
+    color:white;
+    background-color: black;
+
+}
+.page10-guardian1-form,.page10-guardian2-form{ 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px
+}
+.page10-footer-flex{
+    display:flex;
+    
+}
